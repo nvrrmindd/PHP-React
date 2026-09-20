@@ -52,5 +52,5 @@ http://localhost:8002/seminar-3/
 
 ## Project Files
 
-- `seminar-3/index.html` - page structure and content
-- `seminar-3/style.css` - layout, colors, backgrounds, cards, navigation, hover effects, and responsive styles
+- `index.html` - page structure and content
+- `style.css` - layout, colors, backgrounds, cards, navigation, hover effects, and responsive styles
