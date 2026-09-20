@@ -19,6 +19,12 @@ A modern one-page healthcare dashboard for monitoring metabolic syndrome with Io
 - Responsive mobile layout
 - Medical background image and transparent dashboard panels
 
+## Screenshots
+<img width="1707" height="869" alt="image" src="https://github.com/user-attachments/assets/6d761e93-8015-4388-a949-0cdb0d7427c9" />
+<img width="1710" height="845" alt="image" src="https://github.com/user-attachments/assets/96adb332-e776-4275-9235-2d1cd2a3d535" />
+<img width="1710" height="215" alt="image" src="https://github.com/user-attachments/assets/e060144e-17b5-4fcf-9d1f-70c0fc62a9e5" />
+
+
 ## Technologies
 
 - HTML5
