@@ -43,25 +43,14 @@ python3 -m http.server 8002
 Then open:
 
 ```text
-http://localhost:8002/
+http://localhost:8002/seminar-3/
 ```
 
 ## Public Website
 
-[Open the GitHub Pages website](https://nvrrmindd.github.io/PHP-React/)
-
-## Screenshots
-
-Screenshots for the assignment are stored in [`screenshots/seminar-3/`](screenshots/seminar-3/).
-
-Add the following files to that folder:
-
-- `desktop.png` - final page on a desktop viewport
-- `mobile.png` - final page on a mobile viewport
-- `html-validation.png` - HTML validation result
-- `css-validation.png` - CSS validation result
+[Open the GitHub Pages website](https://nvrrmindd.github.io/PHP-React/seminar-3/)
 
 ## Project Files
 
-- `index.html` - page structure and content
-- `style.css` - layout, colors, backgrounds, cards, navigation, hover effects, and responsive styles
+- `seminar-3/index.html` - page structure and content
+- `seminar-3/style.css` - layout, colors, backgrounds, cards, navigation, hover effects, and responsive styles
