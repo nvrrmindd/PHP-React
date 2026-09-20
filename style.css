@@ -1,0 +1,251 @@
+/* Basic page style */
+body {
+    margin: 0;
+    padding: 24px;
+    color: #1f2937;
+    background:
+        linear-gradient(rgba(8, 35, 64, 0.42), rgba(8, 35, 64, 0.42)),
+        url("https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=2000&q=85") center/cover fixed;
+    font-family: Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    max-width: 1100px;
+    margin: 0 auto 25px;
+    padding: 0 20px 20px;
+    border: 3px solid rgba(255, 255, 255, 0.55);
+    border-radius: 28px;
+    color: white;
+    background: rgba(79, 5, 90, 0.48);
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+nav a {
+    padding: 8px 14px;
+    border-radius: 8px;
+    color: white;
+    background: rgba(149, 0, 77, 0.72);
+    text-decoration: none;
+    transition: background 0.3s, transform 0.3s;
+}
+
+nav a:hover {
+    background: rgba(34, 197, 94, 0.85);
+    transform: translateY(-2px);
+}
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 3px solid rgba(255, 255, 255, 0.55);
+    border-radius: 28px;
+    background: rgba(231, 244, 248, 0.205);
+    box-shadow: 0 20px 55px rgba(0, 0, 0, 0.35);
+}
+
+section {
+    margin: 25px 0;
+    padding: 25px;
+    border: 2px solid rgba(67, 15, 118, 0.2);
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.343);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.intro {
+    box-sizing: border-box;
+    width: calc(100% + 40px);
+    margin: 0 -20px;
+    border-radius: 23px;
+    padding: 58px 35px;
+    color: rgb(255, 255, 255);
+    background:
+        linear-gradient(rgba(8, 48, 84, 0.415), rgba(75, 10, 119, 0.372)),
+        url("https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&w=1600&q=85") center center/cover no-repeat;
+    text-align: center;
+}
+
+.intro h2 {
+    margin-bottom: 18px;
+    font-size: clamp(2rem, 5vw, 5rem);
+    font-weight: bold;
+    -webkit-text-stroke: 2px #060404;
+}
+
+.intro p {
+    max-width: 720px;
+    margin: 0 auto;
+    font-size: 1.4rem;
+}
+
+h1,
+h2,
+h3 {
+    margin-top: 0;
+}
+
+/* Patient table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+th,
+td {
+    padding: 12px;
+    border-bottom: 1px solid #d1d5db;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.3rem;
+
+
+}
+
+th {
+    color: #200637;
+    font-size: 1.3rem;
+}
+
+/* Dashboard cards */
+#dashboard {
+    scroll-margin-top: 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+}
+
+.card {
+    padding: 18px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    background: rgba(249, 250, 251, 0.5);
+    text-align: center;
+    font-size: 1.3rem;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.card img {
+    width: 45px;
+    height: 45px;
+    margin: 0 auto 10px;
+}
+
+.value {
+    margin-bottom: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.sensor,
+.unit {
+    margin: 6px 0;
+    color: #6b7280;
+    font-size: 0.9rem;
+}
+
+.status {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.normal {
+    color: #166534;
+    background: #dcfce7;
+}
+
+.warning {
+    color: #92400e;
+    background: #fef3c7;
+}
+
+.danger {
+    color: #991b1b;
+    background: #fee2e2;
+}
+
+.warning-card:hover {
+    border-color: #f59e0b;
+}
+
+.danger-card:hover {
+    border-color: #dc2626;
+}
+
+/* Alerts and footer */
+.alert {
+    margin: 10px 0;
+    padding: 15px;
+    border-left: 6px solid #16a34a;
+    border-radius: 6px;
+    background: rgba(249, 250, 251, 0.5);
+    transition: 0.3s;
+    font-size: 1.3rem;
+    font-weight: bold;
+
+}
+
+.alert:hover {
+    background: #e0f2fe;
+}
+
+.danger-alert {
+    border-left-color: #dc2626;
+}
+
+footer {
+    max-width: 1100px;
+    margin: 25px auto 0;
+    padding: 25px;
+    border: 3px solid rgba(255, 255, 255, 0.55);
+    border-radius: 28px;
+    color: white;
+    background: rgba(8, 35, 64, 0.62);
+    text-align: center;
+}
+
+/* Mobile layout */
+@media (max-width: 800px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    body {
+        padding: 10px;
+    }
+
+    main {
+        padding: 10px;
+        border-radius: 18px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    section {
+        padding: 18px;
+    }
+}

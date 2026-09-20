@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IOT Monitoring Metabolic Syndrome</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="top">
+        <div class="intro" id="intro">
+            <h2>Monitoring Metabolic Syndrome</h2>
+            <p>Smart sensors collect health data and display it in a clear dashboard.</p>
+        </div>
+        <nav>
+            <a href="#intro">Introduction</a>
+            <a href="#dashboard">Dashboard</a>
+            <a href="#alerts">Alerts</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="patient">
+            <h2>Patient Information</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <td>Nazyken Amanzholova</td>
+                </tr>
+                <tr>
+                    <th>Age</th>
+                    <td>19</td>
+                </tr>
+                <tr>
+                    <th>Condition</th>
+                    <td>Metabolic syndrome risk</td>
+                </tr>
+                <tr>
+                    <th>Status</th>
+                    <td><span class="status normal">Monitoring Active</span></td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="dashboard" id="dashboard">
+            <h2>Patient Dashboard</h2>
+            <div class="cards">
+                <article class="card">
+                    <h3>Body Temperature</h3>
+                    <p class="sensor">Sensor: Temperature Sensor</p>
+                    <p class="value">36.7</p>
+                    <p class="unit">Unit: °C</p>
+                    <p class="status normal">Normal</p>
+                </article>
+
+                <article class="card warning-card">
+                    <h3>Blood Glucose</h3>
+                    <p class="sensor">Sensor: Glucose Monitor</p>
+                    <p class="value">8.9</p>
+                    <p class="unit">Unit: mmol/L</p>
+                    <p class="status warning">High</p>
+                </article>
+
+                <article class="card">
+                    <h3>Heart Rate</h3>
+                    <p class="sensor">Sensor: Heart Rate Sensor</p>
+                    <p class="value">78</p>
+                    <p class="unit">Unit: bpm</p>
+                    <p class="status normal">Normal</p>
+                </article>
+
+                <article class="card danger-card">
+                    <h3>Blood Pressure</h3>
+                    <p class="sensor">Sensor: Blood Pressure Cuff</p>
+                    <p class="value">148/94</p>
+                    <p class="unit">Unit: mmHg</p>
+                    <p class="status danger">Abnormal</p>
+                </article>
+
+                <article class="card">
+                    <h3>ECG</h3>
+                    <p class="sensor">Sensor: ECG Patch</p>
+                    <p class="value">Sinus</p>
+                    <p class="unit">Unit: rhythm</p>
+                    <p class="status normal">Stable</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="alerts" id="alerts">
+            <h2>Alert Section</h2>
+            <div class="alert normal-alert">
+                Normal example: heart rate is 78 bpm.
+            </div>
+            <div class="alert danger-alert">
+                Abnormal example: blood pressure is 148/94 mmHg.
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <p>MetaCare IoT System</p>
+        <p>Email: kken77701@gmail.com | Phone: +87777756345</p>
+    </footer>
+</body>
+</html>
